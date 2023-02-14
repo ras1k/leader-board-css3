@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@500&family=The+Nautigal&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+.container{
+    background: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
